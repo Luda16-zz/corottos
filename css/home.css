@@ -102,7 +102,12 @@ h4{
 	border: 2px white solid;
 	border-radius: 7.5px;
     padding-top: 5px;
-    padding-bottom: 5px;    
+    padding-bottom: 5px; 
+    margin-left: 60px;
+    margin-right: 60px;   
+}
+.red-section img{
+	width: 150px;
 }
 .green-section{
 	background-color: #6AAE7F !important;
@@ -117,7 +122,7 @@ h4{
     width: 200px;
 }
 .ship{
-	padding-top: 100px;
+	padding-top: 30px;
 }
 .green-section	h2{
 	font-family: 'Helvetica';
@@ -126,6 +131,7 @@ h4{
 }
 .green-section h3{
 	color: white;
+	padding-bottom: 35px;    
 }
 .green-section h4{
 	font-family: 'Helvetica';
@@ -134,6 +140,8 @@ h4{
 	border-radius: 7.5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-left: 60px;
+    margin-right: 60px;   
 }
 .premium-section{
 	background-color: #F0E9E1 !important; 
@@ -173,4 +181,7 @@ h4{
 .footer ul li a i{
 	line-height:42px !important;
 }
-
+.copyright{
+	color: white;
+    font-weight: bold;
+}
