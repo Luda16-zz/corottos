@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Corottos - Comunidad de Coleccionismo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="img/favicon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/home.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -35,7 +37,7 @@
                             <a href="#about">Inicio</a>
                         </li>
                         <li>
-                            <a href="/login">Acerca de</a>
+                            <a href="/">Acerca de</a>
                         </li>
                         <li>
                             <a href="/login">Que Hacemos</a>
@@ -54,9 +56,9 @@
         </nav>
             <!-- ========== GREY SECTION ========== -->
             <section class="grey-section">
-                <div class="container home-center">
+                <div class="container" style="text-align: center;">
                     <div class="row">
-                        <div class="col-md-12 ol-lg-12">
+                        <div class="col-md-12 col-lg-12">
                             <img src="img/logo.png" alt="Corottos logo">
                         </div>
                         <h1>¡Coleccionemos entre todos!</h1>
@@ -66,7 +68,7 @@
                         <div class="col-lg-12">
                             <div class="btn btn-default">Iniciar</div>               
                         </div>
-                        <div class="col-md-12 ol-lg-12 down-arrow">
+                        <div class="col-md-12 col-lg-12 down-arrow">
                             <img src="img/down.png" alt="See more about Corottos">                            
                         </div>
                         <div class="col-lg-12">
@@ -76,12 +78,12 @@
 
             <!-- ========== YELLOW SECTION ========== -->
             <section class="yellow-section">
-                <div class="container home-center">
+                <div class="container " style="text-align: center;">
                     <div class="row"> 
-                        <div class="col-md-12 ol-lg-12 top-icon">
+                        <div class="col-md-12 col-lg-12 top-icon">
                             <img src="img/sr.png" alt="Corottos is for collectors">                            
                         </div> 
-                        <div class="col-md-12 ol-lg-12">
+                        <div class="col-md-12 col-lg-12">
                             <h2>Un lugar dedicado a coleccionistas</h2>
                             <h3>Conecta con coleccionistas de todo el mundo y muestra tus tesoros más <b>preciados</b></h3>
                         </div>
@@ -93,7 +95,7 @@
             <section class="red-section">
                 <div class="container home-center">
                     <div class="row">
-                            <div class="col-md-12 ol-lg-12 top-icon">
+                            <div class="col-md-12 col-lg-12 top-icon">
                                 <img src="img/acordeon.png" alt="Corottos options">                                
                                 <h2>¡Mira lo que puedes hacer!</h2>
                             </div>               
@@ -121,8 +123,8 @@
             <section class="green-section">
                 <div class="container home-center">
                     <div class="row">  
-                        <img src="img/planet.png" alt="Corottos">
-                        <img src="img/ship.png" alt="Corottos">
+                        <img src="img/planet.png" class="planet" alt="Corottos">
+                        <img src="img/ship.png" class="ship" alt="Corottos">
                         <h2>Así colecciones naves espaciales</h2>
                         <h3>¡Tienes un espacio aquí!</h3>
                             <div class="col-lg-3 col-xs-3">
@@ -152,38 +154,18 @@
                 </div><!-- /container -->
             </section><!-- /yellow section -->
 
-            <!-- Footer -->
-            <footer class="brown-section">
-                <div class="container home-center">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p class="copyright text-muted small">Copyright &copy; Corottos <script>document.write(new Date().getFullYear())</script>. Todos los derechos reservados.</p>
-                            <ul class="social-icons">
-                              <li class="icon icon--facebook">
-                                <a href="#">
-                                  <span class="icon__name"></span>
-                                </a>
-                              </li>
-                              <li class="icon icon--twitter">
-                                <a href="#">
-                                  <span class="icon__name"></span>
-                                </a>
-                              </li>                  
-                              <li class="icon icon--instagram">
-                                <a href="#">
-                                  <span class="icon__name"></span>
-                                </a>
-                              </li>    
-                              <li class="icon icon--share">
-                                <a href="#">
-                                  <span class="icon__name"></span>
-                                </a>
-                              </li>                  
-                            </ul>
-                        </div>
-                    </div>            
-                </div>
-            </footer>
+        <!-- Footer -->
+        <section class="footer" id="footer">
+            <p class="copyright text-muted small">Copyright &copy; Corottos <script>document.write(new Date().getFullYear())</script>. Todos los derechos reservados.</p>
+            <div class="container">
+              <ul>
+                <li><a href="https://twitter.com/LudaCasanova"><img src="img/icon_twitter.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/luisdaniel.casanova"><img src="img/icon_facebook.png" alt="Corottos Youtube"></a></li>
+                <li><a href="https://ve.linkedin.com/in/luisdanielcasanova"><img src="img/icon_youtube.png" alt="Corottos Youtube"></a></li>
+                <li><a href="https://github.com/Luda16"><img src="img/icon_ig.png" alt="@Corottos Instagram"></a></li>
+              </ul>
+            </div>
+        </section>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

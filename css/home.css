@@ -1,14 +1,8 @@
-
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 @font-face {
   font-family: 'ArialRounded';
   src: font-url('ArialRoundedMTBoldRegular.ttf') format('truetype');
        
 }
-
 @font-face {
   font-family: 'Helvetica';
   src: font-url('Helvetica.otf') format('otf');
@@ -25,28 +19,21 @@
 //$green: #6AAE7F;
 //$brown: #4B331B;
 
-.home-center{
-	text-align: center;
-}
-
-.home-center .top-icon{
-	padding-top: 50px;
-}
-.home-center h2{
+h2{
 	color: white;
 	font-size: 3em;
 	font-family: 'Helvetica';	
 }
-.home-center	h3{
+h3{
 	color: white;	
 	font-size: 2em;
-	font-family: 'ArialRounded'
+	font-family: 'ArialRounded';
 }
-.home-center	h4{
+h4{
 	color: white;	
 	font-size: 1.5em;
+	font-family: 'ArialRounded';
 }
-
 .grey-section{
 	background-color: #F0E9E1 !important; 
 	height: 650px;
@@ -54,7 +41,6 @@
     margin: 0 auto;
   	padding-top: 100px;
 }
-
 .grey-section .btn {	  	   
     background-color: #F0E9E1 !important;	    
     border-radius: 5px;
@@ -81,14 +67,17 @@
 	background-color: #DB9942 !important;
 	height: 600px;
 	position: relative;
+	padding-top: 50px;
 }
 .yellow-section	h2{
-		font-family: 'Helvetica';
-		font-size: 3rem;	
+	font-family: 'Helvetica';
+	font-size: 3rem;
+	color: white;	
 }
 .yellow-section h3{
 	font-family: 'Helvetica';
 	font-size: 2rem; 
+	color: white;
 }
 .cameradolly{
     position: absolute;
@@ -100,10 +89,12 @@
 	background-color: #D0344C !important;
 	height: 600px;
 	text-align: center;
+	padding-top: 50px;
 }
 .red-section h2{
 	font-family: 'Helvetica';
 	padding-bottom: 40px;
+	color: white;
 }
 .red-section h4{
 	font-family: 'Helvetica';
@@ -111,7 +102,7 @@
 	border: 2px white solid;
 	border-radius: 7.5px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px;    
 }
 .green-section{
 	background-color: #6AAE7F !important;
@@ -131,12 +122,12 @@
 .green-section	h2{
 	font-family: 'Helvetica';
 	padding-bottom: 40px;
+	color: white;
 }
-
 .green-section h3{
+	color: white;
 }
-
-.green-section	h4{
+.green-section h4{
 	font-family: 'Helvetica';
 	font-size: 1.5rem;
 	border: 2px white solid;
@@ -146,49 +137,40 @@
 }
 .premium-section{
 	background-color: #F0E9E1 !important; 
-	background-image: image-url('home/side_icon.png');
+	background-image: url('../img/side_icon.png');
 	background-repeat: no-repeat;
 	height: 600px;
 }
-.brown-section{
-	background-color: #4B331B !important;
-	height: 150px;
-	.social-icons {
-    max-width: 980px;
-    margin: 0 auto;
+
+.footer{
+	background:#4B331B;
+}
+.footer .container{
+	padding:40px 0;
 }
 
-footer ul{
+.footer ul{
 	margin:0 auto;
 	text-align:center;
 	list-style-type:none;
 }
-footer ul li{
+.footer ul li{
 	display:inline-block;
-	text-align:center;
-	background:#ffffff;
-	color:#008D85;
-	line-height:42px;
-	margin:0 6px;
-	width:42px !important;
-	height:42px !important;
 	
-	-webkit-border-radius: 50%;
-    border-radius: 50%;
 }
-footer ul li:hover{
-	background:#0a9f9f ;
+.footer ul li img:hover{
+	
 }
-footer ul li:hover	a{
+.footer ul li img:hover	a{
 	color:#fff;
 }
 
-footer ul li a{
+.footer ul li img a{
 	color:#008D85;
 	width:42px !important;
 	height:42px !important;
 }
-footer ul li a i{
+.footer ul li a i{
 	line-height:42px !important;
-}	
+}
 
