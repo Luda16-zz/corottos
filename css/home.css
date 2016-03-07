@@ -156,15 +156,16 @@ h4{
 .footer .container{
 	padding:40px 0;
 }
-
+.footer .row{
+	padding-bottom: 20px;
+}
 .footer ul{
 	margin:0 auto;
 	text-align:center;
 	list-style-type:none;
 }
 .footer ul li{
-	display:inline-block;
-	
+	display:inline-block;	
 }
 .footer ul li img:hover{
 	
@@ -172,7 +173,6 @@ h4{
 .footer ul li img:hover	a{
 	color:#fff;
 }
-
 .footer ul li img a{
 	color:#008D85;
 	width:42px !important;
@@ -180,6 +180,9 @@ h4{
 }
 .footer ul li a i{
 	line-height:42px !important;
+}
+.footer p{
+	margin: 0 !important;
 }
 .copyright{
 	color: white;
