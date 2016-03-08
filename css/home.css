@@ -115,6 +115,14 @@ h4{
 .red-section img{
 	width: 150px;
 }
+.red-section .options:hover {
+  -moz-transform: rotate(10deg) skew(0deg);
+  -ms-transform: rotate(10deg) skew(0deg);
+  -o-transform: rotate(10deg) skew(0deg);
+  -webkit-transform: rotate(10deg) skew(0deg);
+  padding: 15px;
+  transform: rotate(10deg) skew(0deg);
+}
 .green-section{
 	background-color: #6AAE7F !important;
 	height: 600px;
@@ -133,6 +141,16 @@ h4{
 .corotto-tipo{
 	width: 150px;
 }
+.corotto-tipo:hover {
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360eg);
+  padding: 15px;
+  transform: rotate(360deg);
+  border-radius: 65px;
+}
+
 .green-section	h2{
 	font-family: 'Helvetica';
     padding-bottom: 25px;
