@@ -18,6 +18,17 @@
 //$red: #D0344C;
 //$green: #6AAE7F;
 //$brown: #4B331B;
+/*
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (min-width: 320px) and (max-width: 480px){ }
+
+
+*/
 
 h2{
 	color: white;
@@ -34,6 +45,7 @@ h4{
 	font-size: 1.5em;
 	font-family: 'ArialRounded';
 }
+/********************************	GREY SECTION *************************/
 .grey-section{
 	background-color: #F0E9E1 !important; 
 	height: 650px;
@@ -42,7 +54,7 @@ h4{
   	padding-top: 100px;
 }
 .grey-section img{
-	padding-bottom: 50px
+	padding-bottom: 50px;
 }
 .grey-section h1{
 	font-size: 3em;
@@ -72,8 +84,32 @@ h4{
     color: #DB9942 !important;
 }
 .grey-section .down-arrow{
-	
 }
+
+	@media all and (min-width: 320px) and (max-width: 480px){ 
+		.grey-section{
+			height: 100vh;
+			padding-top: 20px;
+		}
+		.grey-section img{
+			width: 15em;
+			padding-bottom: 5px;
+		}
+		.grey-section h1 {
+    		font-size: 2em;
+    	}
+		.social-icon{
+		    width: 5em !important;
+		}
+		.grey-section .down-arrow{
+			padding-top: 4rem;
+    		width: 65px !important;
+       		position: inherit;
+		}
+	
+	}
+
+/******************************** YELLOW SECTION *************************/
 .yellow-section{
 	background-color: #DB9942 !important;
 	height: 600px;
@@ -100,6 +136,29 @@ h4{
    	top: 58%;
    	width: 400px;
 }
+
+	@media all and (min-width: 300px) and (max-width: 480px){
+		.yellow-section{
+			padding-top: 40px;
+			height: 400px;
+		}
+		.yellow-section img{
+			width: 30px;
+		}
+		.yellow-section	h2 {
+    		font-size: 2rem !important;
+		}
+		.yellow-section h3 {
+		    font-size: 1.2rem;    		
+		    display: inline;
+		}
+		.yellow-section .cameradolly{    
+			width: 150px;
+    		top: 77%;
+		}
+
+/******************************** RED SECTION *************************/
+
 .red-section{
 	background-color: #D0344C !important;
 	height: 600px;
@@ -133,6 +192,32 @@ h4{
   padding: 15px;
   transform: rotate(10deg) skew(0deg);
 }
+
+	@media all and (min-width: 300px) and (max-width: 480px){
+		.red-section{
+			padding-top: 40px;
+			height: 400px;
+		}
+		.red-section img{
+			width: 50px;
+		}
+		.red-section h2 {
+    		font-size: 2rem !important;
+		}
+		.red-section h3 {
+		    font-size: 1.2rem;    		
+		    display: inline;
+		}
+		.red-section h4{    	
+		    font-size: .9rem;
+    		margin-left: -9px;
+    		margin-right: -3px;
+		    border: 1px white solid;
+		}
+
+/******************************** GREEN SECTION *************************/
+
+
 .green-section{
 	background-color: #6AAE7F !important;
 	height: 600px;
@@ -160,7 +245,6 @@ h4{
   transform: rotate(360deg);
   border-radius: 65px;
 }
-
 .green-section	h2{
 	font-family: 'Helvetica';
     padding-bottom: 25px;
@@ -183,6 +267,41 @@ h4{
 	margin-left: 60px;
     margin-right: 60px;   
 }
+
+@media all and (min-width: 300px) and (max-width: 480px){
+		.green-section{
+			padding-top: 40px;
+			height: 450px;
+		}
+		.green-section img{
+			width: 50px;
+		}
+		.green-section h2 {
+    		font-size: 2rem !important;
+    		font-weight: normal;
+		}
+		.green-section h3 {
+		    font-size: 1.2rem;    		
+		    margin-bottom: 10px;
+    		display: block;
+		}
+		.green-section h4{    	
+		    font-size: .9rem;
+    		margin-left: -9px;
+    		margin-right: -3px;
+		    border: 1px white solid;
+		}
+		.planet{
+			width: 60px !important;
+
+		}
+		.ship{
+		}
+		.corotto-tipo{
+		}
+
+
+
 .premium-section{
 	background-color: #F0E9E1 !important; 
 	background-image: url('../img/side_icon.png');
@@ -228,5 +347,14 @@ h4{
 }
 .copyright{
 	color: white;
-    font-weight: bold;
+    
+}
+
+@media all and (min-width: 300px) and (max-width: 480px){
+		.footer{
+			height: 300px;
+		}
+		.footer img{
+			width: 50px;
+		}
 }
