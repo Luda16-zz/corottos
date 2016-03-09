@@ -86,7 +86,7 @@ h4{
 .grey-section .down-arrow{
 }
 
-	@media all and (min-width: 320px) and (max-width: 480px){ 
+	@media screen and (min-width: 320px) and (max-width: 480px){ 
 		.grey-section{
 			height: 100vh;
 			padding-top: 20px;
@@ -109,7 +109,7 @@ h4{
 	
 	}
 
-/******************************** YELLOW SECTION *************************/
+/****************************** YELLOW SECTION *************************/
 .yellow-section{
 	background-color: #DB9942 !important;
 	height: 600px;
@@ -137,7 +137,7 @@ h4{
    	width: 400px;
 }
 
-	@media all and (min-width: 300px) and (max-width: 480px){
+	@media screen and (min-width: 300px) and (max-width: 480px){
 		.yellow-section{
 			padding-top: 40px;
 			height: 400px;
@@ -156,6 +156,7 @@ h4{
 			width: 150px;
     		top: 77%;
 		}
+	}
 
 /******************************** RED SECTION *************************/
 
@@ -193,7 +194,7 @@ h4{
   transform: rotate(10deg) skew(0deg);
 }
 
-	@media all and (min-width: 300px) and (max-width: 480px){
+	@media screen and (min-width: 300px) and (max-width: 480px){
 		.red-section{
 			padding-top: 40px;
 			height: 400px;
@@ -214,6 +215,7 @@ h4{
     		margin-right: -3px;
 		    border: 1px white solid;
 		}
+	}
 
 /******************************** GREEN SECTION *************************/
 
@@ -268,7 +270,7 @@ h4{
     margin-right: 60px;   
 }
 
-@media all and (min-width: 300px) and (max-width: 480px){
+@media screen and (min-width: 300px) and (max-width: 480px){
 		.green-section{
 			padding-top: 40px;
 			height: 450px;
@@ -293,14 +295,9 @@ h4{
 		}
 		.planet{
 			width: 60px !important;
-
-		}
-		.ship{
-		}
-		.corotto-tipo{
 		}
 
-
+}
 
 .premium-section{
 	background-color: #F0E9E1 !important; 
@@ -346,11 +343,10 @@ h4{
 	margin: 0 !important;
 }
 .copyright{
-	color: white;
-    
+	color: white; 
 }
 
-@media all and (min-width: 300px) and (max-width: 480px){
+@media screen and (min-width: 300px) and (max-width: 480px){
 		.footer{
 			height: 300px;
 		}
